@@ -1,5 +1,16 @@
 {
-    "extends": ["plugin:vue/vue3-recommended"],
+    "extends": ["standard-with-typescript", "eslint:recommended", "plugin:vue/vue3-recommended", "eslint-config-prettier"],
+    "plugins": [
+      "eslint-plugin-prettier",
+      "eslint-plugin-vue"
+    ],
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+      "parser": "@typescript-eslint/parser",
+      "extraFileExtensions": [".vue"],
+      "sourceType": "module"
+    },
+    "ignorePatterns": [".eslintrc.cjs", "vite.config.ts"],
     "rules": {
         "vue/no-unused-vars": "error",
         "prettier/prettier": [
