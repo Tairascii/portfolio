@@ -1,0 +1,21 @@
+.title {
+    color: var(--white-primary);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.button {
+    color: var(--black-primary);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--white-primary);
+    padding: 12px 24px;
+    border-radius: 100px;
+    border: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
