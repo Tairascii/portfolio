@@ -3,4 +3,5 @@
     --black-secondary: #1C1C22;
     --white-primary: #F0F2F5;
     --white-secondary: #ffffff;
+    --main-gradient: linear-gradient(90deg, rgba(18,194,233,1) 0%, rgba(196,113,237,1) 50%, rgba(246,79,89,1) 100%);
 }
