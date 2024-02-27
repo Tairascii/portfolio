@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { UpperSection } from '../UpperSection'
+import { Divider } from '../Divider'
 </script>
 <script lang="ts">
 export default {
@@ -8,4 +9,5 @@ export default {
 </script>
 <template>
   <UpperSection />
+  <Divider />
 </template>

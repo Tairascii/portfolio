@@ -1,0 +1,43 @@
+.background {
+    position: relative;
+    top: 30%;
+    height: 80px;
+    width: 100%;   
+    background: var(--main-gradient);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    top: 30%;
+    left: -5%;
+    transform: rotate(-3deg);
+    position: absolute;
+    height: 80px;
+    width: 120%;
+    background-color: var(--white-primary);
+}
+
+.wrapper {
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+    margin-top: 240px;
+}
+.text {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    width: 120%;
+    color: var(--black-white);
+    z-index: 10;
+    font-size: 20px;
+}
+
+.textMapper {
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}

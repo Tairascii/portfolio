@@ -15,6 +15,6 @@ body {
   background-color: var(--black-primary);
   font-family: 'Bai Jamjuree', sans-serif;
   font-style: normal;
-  padding: 0 80px;
+  margin: 0;
 }
 </style>
