@@ -1,0 +1,82 @@
+.main {
+  display: flex;
+  padding: 0 80px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.name {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 600;
+  background-color: red;
+  background-image: var(--main-gradient);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nameAndRole {
+  width: 35%;
+}
+
+.experience {
+  width: 55%;
+}
+
+.role {
+  font-size: 64px;
+  margin: 0;
+  margin-top: 16px;
+  color: var(--white-primary);
+}
+
+.info {
+ margin: 0; 
+ color: var(--white-primary);
+}
+
+.bigger {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.smaller {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.numbers {
+  margin-top: 40px;
+  display: flex;
+  gap: 120px;
+}
+
+.resultNumber {
+  font-weight: 600;
+  font-size: 52px;
+  color: var(--white-primary);
+  margin-top: 12px;
+}
+
+.experienceNumber,
+.projectsNumber {
+  display: flex;
+  flex-direction: column;
+}
+
+.gradientTitle {
+  font-size: 24px;
+  font-weight: 600;
+  background-color: red;
+  background-image: var(--main-gradient);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
