@@ -7,7 +7,7 @@ export default {
   <div class="main">
     <div class="text">
       <div class="mainText">
-        <span class="name">Hello, I am Tair,</span><br />
+        <span class="name">Hi, I am Tair,</span><br />
         <span class="about">Software Engineer<br />from Almaty</span>
       </div>
 

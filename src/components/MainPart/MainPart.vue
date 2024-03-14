@@ -3,6 +3,7 @@ import { UpperSection } from '../UpperSection'
 import { Divider } from '../Divider'
 import { SelectedProject } from '../SelectedProject'
 import { ExperiencePart } from '../ExperiencePart'
+import { WhatDo } from '../WhatDo'
 </script>
 <script lang="ts">
 export default {
@@ -15,5 +16,6 @@ export default {
     <Divider />
     <SelectedProject />
     <ExperiencePart />
+    <WhatDo />
   </main>
 </template>
