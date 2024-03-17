@@ -12,16 +12,16 @@ export default {
       </div>
 
       <div class="subtitle">
-        A Software Engineer from Almaty. I specialize at Front-end <br />
+        A Software Engineer from Almaty. I specialize at Front-end, <br />
         but also a Back-end enthusiast
       </div>
       <div class="buttons">
-        <button class="buttonMain gradientButton">GET IN TOUCH</button>
-        <button class="buttonMain">VIEW ALL WORKS</button>
+        <a href="#" class="linkMain gradientLink">RESUME</a>
+        <a href="#selectedProjects" class="linkMain">VIEW ALL WORKS</a>
       </div>
     </div>
     <div class="imageWraper">
-      <img src="../../assets/images/me.jpg" class="image" />
+      <img src="/src/assets/images/me.jpg" class="image" />
     </div>
   </div>
 </template>

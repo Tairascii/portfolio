@@ -1,9 +1,9 @@
 .main {
- display: flex;
- align-items: center;
- justify-content: space-between;   
- margin-top: 80px;
- padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    margin-top: 80px;
+    padding: 0 80px;
 }
 
 .text {
@@ -41,19 +41,51 @@
     height: 700px;
 }
 
-.buttonMain {
-    background-color: transparent;
+.linkMain {
     color: var(--white-primary);
     font-size: 16px;
     font-weight: 500;
     border: 1px solid var(--white-primary);
     padding: 24px 48px;
     border-radius: 100px;
-    cursor: pointer;
+    text-decoration: none;
 }
 
-.gradientButton {
+.gradientLink {
     background: var(--main-gradient);
     margin-right: 20px;
     border: none;
+}
+
+@media (max-width: 767px) {
+    .main {
+        margin-top: 40px;
+        padding: 0 20px;
+        flex-direction: column;
+        gap: 40px;
+        overflow: hidden;
+    }
+
+    .text {
+        font-size: 48px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .linkMain {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+
+    .imageWraper {
+        width: 400px;
+        height: 400px;
+    }
+
+    .image {
+        border-radius: 0;
+    }
 }

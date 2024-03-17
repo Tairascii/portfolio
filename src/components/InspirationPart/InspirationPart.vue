@@ -6,12 +6,12 @@ export default {
 <template>
   <section class="section">
     <div class="main">
-      <button class="button">
-        <span class="buttonText">Let's Work Together</span>
+      <a class="link" href="https://www.linkedin.com/in/tair-sairanbekov/">
+        <span class="linkText">Let's Work Together</span>
         <div class="arrowWrapper">
           <img src="/src/assets//images/arrow.svg" alt="arrow" class="arrow" />
         </div>
-      </button>
+      </a>
     </div>
     <div class="underline"></div>
   </section>

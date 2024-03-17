@@ -80,3 +80,61 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 767px) {
+  .main {
+      padding: 0 20px;
+      flex-direction: column;
+      margin-top: 60px;
+  }
+
+  .nameAndRole {
+    width: 100%;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .role {
+    font-size: 36px;
+    margin-top: 4px;
+  }
+
+  .experience {
+    width: 100%;
+  }
+
+  .bigger {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .smaller {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .experienceNumber,
+  .projectsNumber {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .numbers {
+    margin-top: 24px;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .resultNumber {
+    font-size: 28px;
+    margin-top: 0;
+  }
+
+  .gradientTitle  {
+    font-size: 16px;
+  }
+}

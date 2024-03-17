@@ -24,7 +24,7 @@ export default {
       <div class="numbers">
         <div class="projectsNumber">
           <span class="gradientTitle">Projects Done</span>
-          <span class="resultNumber">0+</span>
+          <span class="resultNumber">1+</span>
         </div>
         <div class="experienceNumber">
           <span class="gradientTitle">Experience</span>

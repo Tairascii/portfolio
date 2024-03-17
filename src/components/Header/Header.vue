@@ -6,7 +6,9 @@ export default {
 <template>
   <header class="header">
     <span class="title"> PORTFOLIO</span>
-    <button class="button">LET'S TALK</button>
+    <a href="https://www.linkedin.com/in/tair-sairanbekov/" class="link">
+      LET'S TALK
+    </a>
   </header>
 </template>
 

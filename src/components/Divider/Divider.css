@@ -41,3 +41,13 @@
     align-items: center;
     gap: 120px;
 }
+
+@media (max-width: 767px) {
+    .wrapper {
+        margin-top: 0px;
+    }
+
+    .textMapper {
+        gap: 20px;
+    }
+}

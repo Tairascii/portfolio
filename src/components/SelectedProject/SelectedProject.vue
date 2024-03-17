@@ -4,7 +4,7 @@ export default {
 }
 </script>
 <template>
-  <div class="main">
+  <section id="selectedProjects" class="main">
     <h2 class="title">Selected Projects</h2>
     <p class="subtitle">
       I do love trying my skills on different types of project.<br />
@@ -24,7 +24,7 @@ export default {
         <button class="link">Link</button>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 <style scoped>
 @import './SelectedProject.css';

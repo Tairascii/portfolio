@@ -16,5 +16,6 @@ body {
   font-family: 'Bai Jamjuree', sans-serif;
   font-style: normal;
   margin: 0;
+  scroll-behavior: smooth;
 }
 </style>
