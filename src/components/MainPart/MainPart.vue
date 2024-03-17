@@ -4,6 +4,7 @@ import { Divider } from '../Divider'
 import { SelectedProject } from '../SelectedProject'
 import { ExperiencePart } from '../ExperiencePart'
 import { WhatDo } from '../WhatDo'
+import InspirationPart from '../InspirationPart/InspirationPart.vue'
 </script>
 <script lang="ts">
 export default {
@@ -17,5 +18,6 @@ export default {
     <SelectedProject />
     <ExperiencePart />
     <WhatDo />
+    <InspirationPart />
   </main>
 </template>
