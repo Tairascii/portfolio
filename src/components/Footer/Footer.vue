@@ -14,11 +14,23 @@ export default {
   <footer class="footer">
     <span class="title"> PORTFOLIO</span>
     <div class="links">
-      <span v-for="link in links" :key="link.url">
-        <a :href="link.url" class="link">
-          <img :src="link.image" :alt="link.alt" class="logo" />
-        </a>
-      </span>
+      <a href="https://github.com/Tairascii" class="link">
+        <img src="/src/assets/images/github.svg" alt="github" class="logo" />
+      </a>
+      <a href="https://www.linkedin.com/in/tair-sairanbekov/" class="link">
+        <img
+          src="/src/assets/images/linkedin.svg"
+          alt="linkedin"
+          class="logo"
+        />
+      </a>
+      <a href="https://leetcode.com/tair_sairanbekov/" class="link">
+        <img
+          src="/src/assets/images/leetcode.svg"
+          alt="leetcode"
+          class="logo"
+        />
+      </a>
     </div>
   </footer>
 </template>

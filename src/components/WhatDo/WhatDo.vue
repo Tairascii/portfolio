@@ -13,9 +13,25 @@ export default {
   <div class="main">
     <span class="title">What I do</span>
     <div class="logos">
-      <div v-for="logo in logos" :key="logo.alt" class="imageWrapper">
-        <img :src="logo.src" :alt="logo.alt" class="logo" />
-        <span class="logoName">{{ logo.name }}</span>
+      <div class="imageWrapper">
+        <img src="/src/assets/images/go.png" alt="golang" class="logo" />
+        <span class="logoName">GoLang</span>
+      </div>
+      <div class="imageWrapper">
+        <img src="/src/assets/images/ts.svg" alt="ts" class="logo" />
+        <span class="logoName">TypeScript</span>
+      </div>
+      <div class="imageWrapper">
+        <img src="/src/assets/images/react.svg" alt="react" class="logo" />
+        <span class="logoName">ReactJS</span>
+      </div>
+      <div class="imageWrapper">
+        <img src="/src/assets/images/js.png" alt="js" class="logo" />
+        <span class="logoName">JavaScript</span>
+      </div>
+      <div class="imageWrapper">
+        <img src="/src/assets/images/pos.svg" alt="postgreSQL" class="logo" />
+        <span class="logoName">PostgreSQL</span>
       </div>
     </div>
   </div>
