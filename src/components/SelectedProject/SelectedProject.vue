@@ -7,8 +7,8 @@ export default {
   <section id="selectedProjects" class="main">
     <h2 class="title">Selected Projects</h2>
     <p class="subtitle">
-      I do love trying my skills on different types of project.<br />
-      Here is my favorite ones
+      I do love trying my skills on different types of projects.<br />
+      Here are my favorite ones
     </p>
     <div class="humanType">
       <span class="projectName"> MonkeyType</span>

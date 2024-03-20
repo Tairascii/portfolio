@@ -7,13 +7,13 @@ export default {
   <div class="main">
     <div class="text">
       <div class="mainText">
-        <span class="name">Hi, I am Tair,</span><br />
-        <span class="about">Software Engineer<br />from Almaty</span>
+        <span class="name">Hi! Tair,</span><br />
+        <span class="about">a Software Engineer<br />from Almaty</span>
       </div>
 
       <div class="subtitle">
         A Software Engineer from Almaty. I specialize at Front-end, <br />
-        but also a Back-end enthusiast
+        and I am a Back-end enthusiast
       </div>
       <div class="buttons">
         <a href="#" class="linkMain gradientLink">RESUME</a>

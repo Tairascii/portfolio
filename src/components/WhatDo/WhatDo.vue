@@ -11,7 +11,7 @@ export default {
 </script>
 <template>
   <div class="main">
-    <span class="title">What I do</span>
+    <span class="title">What I work with</span>
     <div class="logos">
       <div class="imageWrapper">
         <img src="/src/assets/images/go.png" alt="golang" class="logo" />
