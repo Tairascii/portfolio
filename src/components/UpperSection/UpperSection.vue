@@ -16,7 +16,7 @@ export default {
         and I am a Back-end enthusiast
       </div>
       <div class="buttons">
-        <a href="/src/assets/Tair_CV.pdf" target="_blank" class="linkMain gradientLink">RESUME</a>
+        <a href="/src/assets/Tair_CV.pdf" download class="linkMain gradientLink">RESUME</a>
         <a href="#selectedProjects" class="linkMain">VIEW ALL WORKS</a>
       </div>
     </div>
