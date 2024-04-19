@@ -11,10 +11,20 @@ export default {
       Here are my favorite ones
     </p>
     <div class="humanType">
-      <span class="projectName"> MonkeyType</span>
+      <span class="projectName">Typo</span>
       <div class="buttons">
-        <button class="github">View on GitHub</button>
-        <button class="link">Link</button>
+        <a
+          class="github"
+          href="https://github.com/Tairascii/typo"
+          target="_blank"
+          >View on GitHub</a
+        >
+        <a
+          class="link"
+          href="https://typo-tairasciis-projects.vercel.app/"
+          target="_blank"
+          >Link</a
+        >
       </div>
     </div>
     <div class="spotify">
