@@ -30,8 +30,12 @@ export default {
     <div class="spotify">
       <span class="projectName"> Spotify </span>
       <div class="buttons">
-        <button class="github">View on GitHub</button>
-        <button class="link">Link</button>
+        <a
+          class="github"
+          href="https://github.com/Tairascii/spotify"
+          target="_blank"
+          >View on GitHub</a
+        >
       </div>
     </div>
   </section>
