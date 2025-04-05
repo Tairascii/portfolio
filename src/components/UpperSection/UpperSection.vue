@@ -12,11 +12,11 @@ export default {
       </div>
 
       <div class="subtitle">
-        A Software Engineer from Almaty. I specialize at Front-end, <br />
-        and I am a Back-end enthusiast
+        A Software Engineer from Almaty. I specialize at Back-end, <br />
+        and I am a Front-end enthusiast
       </div>
       <div class="buttons">
-        <a href="/files/Tair_CV.pdf" download class="linkMain gradientLink">RESUME</a>
+        <a href="/files/Tair_Sairanbekov_Backend.pdf" download class="linkMain gradientLink">RESUME</a>
         <a href="#selectedProjects" class="linkMain">VIEW ALL WORKS</a>
       </div>
     </div>

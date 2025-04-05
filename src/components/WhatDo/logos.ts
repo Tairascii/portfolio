@@ -15,9 +15,9 @@ export const logos = [
     name: 'ReactJS',
   },
   {
-    src: '/src/assets/images/js.png',
-    alt: 'js',
-    name: 'JavaScript',
+    src: '/src/assets/images/kafka.png',
+    alt: 'kafka',
+    name: 'Kafka',
   },
   {
     src: '/src/assets/images/pos.svg',

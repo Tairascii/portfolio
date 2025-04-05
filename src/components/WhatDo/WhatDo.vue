@@ -26,8 +26,8 @@ export default {
         <span class="logoName">ReactJS</span>
       </div>
       <div class="imageWrapper">
-        <img src="/src/assets/images/js.png" alt="js" class="logo" />
-        <span class="logoName">JavaScript</span>
+        <img src="/src/assets/images/kafka.png" alt="kafka" class="logo" />
+        <span class="logoName">Apache Kafka</span>
       </div>
       <div class="imageWrapper">
         <img src="/src/assets/images/pos.svg" alt="postgreSQL" class="logo" />

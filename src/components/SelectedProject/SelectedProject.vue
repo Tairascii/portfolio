@@ -28,11 +28,11 @@ export default {
       </div>
     </div>
     <div class="spotify">
-      <span class="projectName"> Spotify </span>
+      <span class="projectName"> Google Docs </span>
       <div class="buttons">
         <a
           class="github"
-          href="https://github.com/Tairascii/spotify"
+          href="https://github.com/Tairascii/google-docs-front"
           target="_blank"
           >View on GitHub</a
         >

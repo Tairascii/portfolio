@@ -13,8 +13,8 @@ export default {
       <p class="info bigger">Constant improvement.</p>
       <p class="info smaller">
         In my free time, I am exploring other spheres of software engineering,
-        such as Back-end. Specifically, I've started a journey to master Go
-        language for the Back-end and do pet projects using this language.
+        such as DevOps. Specifically, I've started a journey to master DevOps
+        tools such as Prometheus, Grafana for observability and K8s for orchestration.
         <br /> <br />
         I believe that one of the main skills for a software engineer is the
         ability to find solutions to a given problem, so I also improve this
@@ -24,11 +24,11 @@ export default {
       <div class="numbers">
         <div class="projectsNumber">
           <span class="gradientTitle">Projects Done</span>
-          <span class="resultNumber">3+</span>
+          <span class="resultNumber">4+</span>
         </div>
         <div class="experienceNumber">
           <span class="gradientTitle">Experience</span>
-          <span class="resultNumber">2+ Years</span>
+          <span class="resultNumber">3+ Years</span>
         </div>
       </div>
     </div>
